@@ -1,0 +1,25 @@
+{
+  "name": "shin1x1/ephemeral-filesystem",
+  "description": "Ephemeral filesystem",
+  "keywords": ["filesystem"],
+  "homepage": "https://github.com/shin1x1/ephemeral-filesystem",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Masashi Shinbara",
+      "email": "shin1x1@gmail.com",
+      "homepage": "https://github.com/shin1x1"
+    }
+  ],
+  "require": {
+    "php": ">5.4.0",
+    "symfony/filesystem": "~v2.8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shin1x1\\EphemeralFilesystem\\": "src",
+      "Shin1x1\\EphemeralFilesystem\\Test\\": "tests"
+    }
+  },
+  "minimum-stability": "stable"
+}
