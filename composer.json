@@ -21,5 +21,8 @@
       "Shin1x1\\EphemeralFilesystem\\Test\\": "tests"
     }
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "stable",
+  "require-dev": {
+    "phpunit/phpunit": "^5.2"
+  }
 }
